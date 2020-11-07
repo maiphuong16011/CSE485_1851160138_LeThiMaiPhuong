@@ -1,0 +1,371 @@
+/*===============================*/
+/*===========RESET CSS==========*/
+/*===============================*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*===============================*/
+/*===========HEADER==========*/
+/*===============================*/
+body {
+    position: relative;
+    background: #fff;
+    color: #444;
+    letter-spacing: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+    font-family: Arial, sans-serifal;
+    line-height: 1.5;
+    border: 1px black solid;
+}
+
+.siteheader{
+	width: 100%;
+    background: #006799;
+    height: 81px;
+}
+.menu ul li a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	padding-left: 7px;
+    padding-right: 7px;
+    line-height: 2.2em;
+}
+.search-item{
+	color: #fff;
+    padding-left: 5px;
+    
+}
+.search-main{
+	padding: 20px 30px 20px;
+    text-align: center;
+    border-bottom: 1px solid #414141;
+    background: #414141;
+}
+.search-main select {
+    display: inline-block;
+    margin: -6px 0 0;
+    padding: 14px;
+    vertical-align: middle;
+    width: 500px;
+}
+.button {
+    background-color: #414141;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+	border: 2px solid #fff;
+}
+
+.maincontent1{
+	z-index: 100;
+    padding: 30px 0;
+    background: #fff;
+    padding-bottom: 30px;
+}
+.start {
+    text-align: center;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+.start p {
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 11px;
+	padding-top: 0px;
+    font-size: 16px;
+    padding-left: 20px;
+    float: left;
+}
+
+.button-cnk {
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+.maincontent2{
+    padding:30px 0 ;
+}
+.panel-heading{
+    background: #0070aa none repeat scroll 0 0;
+    border-radius: 0;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.myimg{
+    left: -34px;
+    position: absolute;
+    top: -43px;
+}
+.panel-heading-2 {
+    background: #0070aa none repeat scroll 0 0;
+    border-radius: 0;
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.panelbody {
+    position: relative;
+    margin-top: 20px;
+    padding: 20px 35px;
+    top: -15px;
+}
+.lichkhaigiang .calendar .thungay {
+    background: #0070aa none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    padding: 5px;
+    font-size: 16px;
+    text-indent: 0;
+}
+.lichkhaigiang .calendar .ngay {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+    display: block;
+    font-size: 18px;
+    padding: 10px;
+    text-indent: 0;
+}
+.panel {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 0;
+    color: #000;
+}
+.lichkhaigiang .calendar {
+    width: 80px;
+    text-align: center;
+}
+.text2{
+    margin-left: 20px;
+    width: 70%;
+    text-indent: 0px;
+    float: left;
+    text-align: justify;
+}
+.text2 a{
+    text-indent: 0px !important;
+    font-size: 14px;
+    outline: none;
+    color: #105f84;
+    text-decoration: none;
+    line-height: inherit;
+    
+    
+}
+
+.lichkhaigiang ul li{
+    display: flex;
+    margin-bottom: 20px;
+}
+.lichkhaigiang ul{
+    margin-bottom: 25px;
+}
+a.btn.btn-primary.mybtn{
+    left: -1px;
+    position: absolute;
+    width: 200px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 0px;
+    background-color:rgb(0, 112, 170);
+    border: none;
+}
+a.btn.btn-primary.mybtn2{
+    right: -1px;
+    position: absolute;
+    width: 220px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 0px ;
+    background-color:rgb(0, 112, 170);
+    border: none;
+
+}
+.title-main{
+    background: #0070aa none repeat scroll 0 0;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.box-camnhan .box-img p {
+    
+    border-radius: 50%;
+    border: 4px solid #0070aa;
+    padding: 5px;
+}
+.box-camnhan .box-img p img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.box-camnhan .box-text div {
+    border-top: 2px solid #0070aa;
+    border-bottom: 2px solid #0070aa;
+    color: #0070aa;
+    font-size: 17px;
+    padding: 5px 0px;
+    margin-left: 20px;
+}
+.box-camnhan{
+    display: flex;
+}
+.box-camnhan .box-img{
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: 100px;
+    
+}
+.box-camnhan .box-text{
+    display: table-cell;
+    vertical-align: middle;
+    width: 762px;
+    height: 228px;
+    margin-left: 50px;
+}
+
+.box-camnhan .box-text div p {
+    margin: 0px;
+    border-top: 2px solid #0070aa;
+    border-bottom: 2px solid #0070aa;
+    padding: 20px;
+}
+.video .row {
+    border: 1px solid #ddd;
+    background: #fff;
+    overflow: hidden;
+    
+}
+.video ul li img {
+    width: 80%;
+    border-radius: 50%;
+    margin-left: 10px !important;
+}
+.video p {
+    color: #3c3c3c;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    text-decoration: none;
+    float: left;
+}
+.flow{
+    width: 40%;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+}
+.flow ul {
+    display: flex;
+    padding-left: 13px;
+    
+}
+.flow h2{
+    text-transform: uppercase;
+    font-size: 133.333%;
+    font-weight: bold;
+}
+.flow ul li {
+    padding: 0px 7px 0px 7px;
+    
+}
+
+
+.flow ul li a i{
+    font-size: 32px;
+    
+}
+.block{
+    padding: 30px 15px;
+    
+}
+.block-content ul li a {
+    text-decoration: none;
+    
+    
+}
+.block-content ul li{
+    padding-bottom: 8px;
+}
+a:hover{
+    color:rgba(47, 10, 10, 0.3);
+}
+.menu ul li:hover{
+    background:#4889aa;
+}
+.item{
+    border: 10px;
+    padding: 5px 4px;
+    background:rgb(63, 56, 56);
+}
+
+    
+.menu ul li:hover .sub-menu-1 ul{
+    display: block;
+    position: absolute;
+}
+
+.sub-menu-1{
+    display: none;
+}
